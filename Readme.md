@@ -9,4 +9,4 @@ static void CloneMethodBody(Mono.Cecil.Reflexil.MethodDefinition source, Mono.Ce
 static void CloneMethodBody(Mono.Cecil.Reflexil.MethodDefinition source, Mono.Cecil.Reflexil.MethodDefinition target, bool OptimizeAndFixIL)
 ```
 
-If you don't want to build this project yourself, just download the [Mono.Cecil.Reflexil.dll](Mono.Cecil.Reflexil\Mono.Cecil.Reflexil\bin\Release\Mono.Cecil.Reflexil.dll ) binary.
+If you don't want to build this project yourself, just download the [Mono.Cecil.Reflexil.dll](https://github.com/beatcracker/GUILess-Reflexil/raw/master/Mono.Cecil.Reflexil/bin/Release/Mono.Cecil.Reflexil.dll) binary.

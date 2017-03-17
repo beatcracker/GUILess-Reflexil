@@ -7,7 +7,7 @@ It's main purpose is to be able to inject/patch a .Net code without GUI-mode Ref
 
 I've removed dependency on the Reflexil's settings and edited `CloneMethodBody` method to accept `2` overloads:
 
-``````csharp
+```csharp
 OverloadDefinitions
 -------------------
 static void CloneMethodBody(Mono.Cecil.Reflexil.MethodDefinition source, Mono.Cecil.Reflexil.MethodDefinition target)
@@ -16,7 +16,7 @@ static void CloneMethodBody(Mono.Cecil.Reflexil.MethodDefinition source, Mono.Ce
 
 If you don't want to build this project yourself, just download the [Mono.Cecil.Reflexil.dll](https://github.com/beatcracker/GUILess-Reflexil/raw/master/Mono.Cecil.Reflexil/bin/Release/Mono.Cecil.Reflexil.dll) binary.
 
-###Example
+### Example
 
 See my [Ori Controller Remap] tool, which uses this library in PowerShell to replace method in the assembly.
 
